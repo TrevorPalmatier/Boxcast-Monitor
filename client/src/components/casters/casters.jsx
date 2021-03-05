@@ -11,7 +11,6 @@ export default class Casters extends Component {
 
 
     componentDidMount() {
-        console.log("mounted");
         this.updateCasters();
         this.interval = setInterval(() => this.updateCasters(), 30000);
     }
@@ -20,7 +19,6 @@ export default class Casters extends Component {
         fetch('/casters')
         .then(res=> res.json())
         .then(casters => this.setState({casters}));
-        console.log('fechted');
     }
 
     render() {

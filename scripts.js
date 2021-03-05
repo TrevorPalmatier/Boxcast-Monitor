@@ -1,4 +1,7 @@
 const axios = require('axios');
+const qs = require('qs');
+
+const params = qs.parse('form[grant_type]=client_credentials&form[scope]=owner&auth[user]=UserID&auth[pass]=UserSecret');
 
 module.exports= {
 authenticate() {

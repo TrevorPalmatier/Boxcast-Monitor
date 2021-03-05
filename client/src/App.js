@@ -10,11 +10,6 @@ function App() {
   })
 
   return (
-    // <div class = 'head'>
-    //     <link rel="stylesheet" type="text/css" href="index.css">
-    //     <title>Boxcast Monitor</title>
-    // </div>
-
     <div class = 'body'>
         <div class="header">
             <div class="title">Boxcast Monitor</div>
